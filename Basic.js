@@ -13,10 +13,13 @@ App.js
 import React from "react"
 import ReactDOM from "react-dom"
 
+const App = () => <h1>Hello world!</h1>
+
 ReactDOM.render(WHAT DO I WANT TO RENDER, WHERE DO I WANT TO RENDER IT)
 ReactDOM.render(<h1>Hello world!</h1>, document.getElementById("root"))
 ReactDOM.render(<div><h1>Hello world!</h1><p>This is a paragraph</p></div>, document.getElementById("root"))
-
+ReactDOM.render(<App />, document.getElementById('root'))
+                
 //----------------------------------------------------------
 import React from "react"
 import ReactDOM from "react-dom"
